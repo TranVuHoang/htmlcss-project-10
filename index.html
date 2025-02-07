@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body style="height: 5000px;">
     <!-- Header -->
     <header class="header">
       <!-- Logo & navbar -->
@@ -51,14 +51,78 @@
           </ul>
         </nav>
       </div>
-
-      <!-- Banner -->
-      <div class="banner">
-        <img src="./assets/images/image-12.png" alt="">
-      </div>
-      <!-- End banner -->
-
     </header>
     <!-- End Header -->
+
+    <!-- Banner -->
+    <div class="banner">
+      <img src="./assets/images/image-12.png" alt="" />
+    </div>
+    <!-- End banner -->
+
+    <div class="wrapper">
+      <!-- Form search layout -->
+      <div class="form-search-layout">
+        <form class="form-search">
+          <div class="form-common form-search__input">
+            <img src="./assets/images/search-normal.svg" alt="search" />
+            <input
+              type="text"
+              id="search"
+              placeholder="Nhập vị trí hoặc từ khóa..."
+            />
+          </div>
+
+          <div class="form-common form-search__option">
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M14.5 11.0131C14.5 9.63187 13.3808 8.51263 12.0005 8.51263C10.6192 8.51263 9.5 9.63187 9.5 11.0131C9.5 12.3934 10.6192 13.5126 12.0005 13.5126C13.3808 13.5126 14.5 12.3934 14.5 11.0131Z"
+                stroke="#999999"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11.9995 21.5126C10.801 21.5126 4.5 16.411 4.5 11.0759C4.5 6.89927 7.8571 3.51263 11.9995 3.51263C16.1419 3.51263 19.5 6.89927 19.5 11.0759C19.5 16.411 13.198 21.5126 11.9995 21.5126Z"
+                stroke="#999999"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span>Chọn địa điểm</span>
+            <svg
+              width="24"
+              height="25"
+              viewBox="0 0 24 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19.92 9.46265L13.4 15.9826C12.63 16.7526 11.37 16.7526 10.6 15.9826L4.07996 9.46265"
+                stroke="#999999"
+                stroke-width="1.5"
+                stroke-miterlimit="10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <button type="submit" class="btn btn-solid">Tìm kiếm</button>
+        </form>
+      </div>
+      <!-- Form search layout -->
+    </div>
   </body>
 </html>
