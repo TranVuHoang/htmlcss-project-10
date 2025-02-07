@@ -1,0 +1,36 @@
+/* ======= Header ======= */
+.header {
+  height: 80px;
+  backdrop-filter: blur(5px);
+}
+
+.header-wrapper {
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  padding: 0px 140px;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: orange; */
+}
+
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+/* ===== End header ===== */
+
+/* ===== Banner */
+.banner {
+  max-width: 100%;
+  width: 100%;
+  height: 721.013px;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* ===== End Banner */

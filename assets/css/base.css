@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #021a84;
+  --secondary-color: #fe4c4c;
+  --text: #171717;
+  --gray: #999999;
+  --light-gray: #e5e5e5;
+  --green-text: #2ada66;
+  --blue-text: #021a84;
+  --red-text: #e5532a;
+  --green-gradient: linear-gradient(0deg, #ffffff99 0%, #ffffff99 100%), #2ada66;
+  --purple-gradient: linear-gradient(0deg, #ffffff99 0%, #ffffff99 100%),
+    #021a84;
+  --red-gradient: linear-gradient(0deg, #ffffff99 0%, #ffffff99 100%), #e5532a;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  min-width: 144px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+  border-radius: 8px;
+}
+
+.btn-border {
+  border: 1px solid var(--primary-color);
+  color: var(--Light-Yellow-50, #021a84);
+}
+
+.btn-solid {
+  background: var(--primary-color);
+  color: #FFF;
+}
